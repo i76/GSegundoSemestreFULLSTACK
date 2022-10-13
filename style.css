@@ -1,0 +1,118 @@
+/* estilo general */
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    }
+    
+    header {
+        background-color: #1f1f1a;
+        padding:10px 0;
+    }
+    
+   .caja{
+    width: 940px;
+    position:relative;
+    margin: 0 auto;
+}
+
+    nav{
+        position:absolute;
+        top: 50px;
+        right: 0;
+    }
+    
+    #ImgLogo{
+        width: 30%;
+        margin: 1%;
+    }
+    
+    nav li{
+        display: inline;
+        margin: 0 0 0 10px;
+    }
+    
+    nav a{
+        text-transform: uppercase;
+        color: #f4e400;
+        font-weight: bold;
+        font-size: 22px;
+        text-decoration: none;
+    }
+    
+    nav a:hover{
+        color: #847445;
+        text-decoration: underline;
+    }
+    
+    footer{
+        text-align: center;
+        background: url(img/ISS045-E-115225.jpg);
+        padding: 50px;
+    
+    }
+    
+    #ImgFooter{
+        width: 12%;
+        margin: 1%;
+        box-shadow: 5px 5px 10px 5px #0000;
+    }
+    
+    .copy{
+        color: #f3f3ef;
+        font-size: 13px;
+        margin: 20px;
+    }
+
+/* acá inicia el CSS para nuestra home index.html */
+
+    .banner{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .principal{
+        padding: 3em 0;
+        width: 940px;
+        margin: 0 auto;
+    }
+    
+    .tituloPrincipal{
+        text-align: center;
+        font-size: 2em;
+        margin: 0 0 1em;
+        clear: left;
+    }
+    
+    .principal p{
+        margin: 0 0 1em;
+    }
+    
+    .principal strong{
+        font-weight: bold;
+    }
+    
+    .principal em{
+        font-style: italic;
+    }
+      
+    .detalles{
+        width: 640px;
+        margin: 0 auto;
+    }
+    
+    .listas{
+        width: 50%;
+        display:inline-block;
+        vertical-align: top;
+    }
+
+    /* acá inicia estilo para nuestro servicios.html */
+
+
+
+
+
+
+
+    /* acá inicia estilo para nuestro contacto.html */
