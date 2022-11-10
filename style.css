@@ -1,43 +1,40 @@
 /* estilo general */
 
-body {
-    font-family: 'Quicksand', sans-serif;
-    font-family: 'Work Sans', sans-serif;
+    body {
+        background-color: #1f1f1a;
+        font-family: 'Quicksand', sans-serif;
+        font-family: 'Work Sans', sans-serif;
     }
     
     header {
         background-color: #1f1f1a;
-        padding:10px 0;
+        padding: 15px;
+    }
+
+    #ImgLogo{
+        width: 5em;
     }
     
-   .caja{
-    width: 940px;
-    position:relative;
-    margin: 0 auto;
-}
-
+    
     nav{
         position:absolute;
-        top: 50px;
+        top: 40px;
         right: 0;
-    }
-    
-    #ImgLogo{
-        width: 30%;
-        margin: 1%;
     }
     
     nav li{
         display: inline;
-        margin: 0 0 0 10px;
+        margin: 0 0 0 5px;
     }
     
     nav a{
         text-transform: uppercase;
         color: #f4e400;
         font-weight: bold;
-        font-size: 22px;
+        font-size: 14px;
         text-decoration: none;
+        text-align: right;
+        margin-right: 10px;
     }
     
     nav a:hover{
@@ -70,49 +67,43 @@ body {
         width: 100%;
         margin: 0 auto;
     }
-    
-    .principal{
-        padding: 3em 0;
-        width: 940px;
-        margin: 0 auto;
+
+    main{
+        background: linear-gradient(gray, #080800);
     }
     
+        
     .tituloPrincipal{
         text-align: center;
         font-size: 2em;
         margin: 0 0 1em;
         clear: left;
+        text-shadow: #fbfb0c;
     }
     
-    .principal p{
-        margin: 0 0 1em;
-    }
-    
+
     .principal strong{
         font-weight: bold;
     }
     
-    .principal em{
-        font-style: italic;
-    }
       
     .detalles{
         width: 640px;
         margin: 0 auto;
     }
-    
-    .listas{
-        width: 50%;
-        display:inline-block;
-        vertical-align: top;
+  
+    .row{
+        padding: 20px;
+        color: rgb(249, 248, 251);
+        justify-content: center;
     }
-
-    /* acá inicia estilo para nuestro servicios.html */
-
-
-
-
-
-
-
-    /* acá inicia estilo para nuestro contacto.html */
+    
+    .card{
+        align-items: center;
+        text-align: center justify;
+        border-radius: 20px;
+        margin: 15px;
+        padding: 20px;
+        background: linear-gradient(rgba(167, 169, 163, 0.096), rgba(0, 0, 0, 0.04));
+        color: rgb(210, 208, 219);
+    }
