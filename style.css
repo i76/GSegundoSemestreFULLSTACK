@@ -65,35 +65,34 @@
 
     .banner{
         width: 100%;
-        margin: 0 auto;
+        margin: auto;
     }
 
     main{
         background: linear-gradient(gray, #080800);
     }
     
-        
     .tituloPrincipal{
         text-align: center;
-        font-size: 2em;
+        font-size: 1.5em;
         margin: 0 0 1em;
         clear: left;
-        text-shadow: #fbfb0c;
     }
     
+    .texto-nosotros{
+        text-align: justify;
+        align-items: center;
+        margin: 40px;
+        padding: 50px;
+    }
 
-    .principal strong{
+    .tituloprincipal strong{
         font-weight: bold;
     }
-    
+    /* acá inicia el CSS para nuestra home contacto.html */
       
-    .detalles{
-        width: 640px;
-        margin: 0 auto;
-    }
-  
     .row{
-        padding: 20px;
+        padding: 18px;
         color: rgb(249, 248, 251);
         justify-content: center;
     }
@@ -101,9 +100,51 @@
     .card{
         align-items: center;
         text-align: center justify;
-        border-radius: 20px;
+        border-radius: 10px;
         margin: 15px;
         padding: 20px;
         background: linear-gradient(rgba(167, 169, 163, 0.096), rgba(0, 0, 0, 0.04));
         color: rgb(210, 208, 219);
+    }
+
+
+    /* acá inicia el CSS para nuestra home contacto.html */
+
+/*        
+    form{
+        margin:auto;
+    }  */
+    
+    form label, form legend{
+        display: block;
+        font-size: 16px;
+        margin: 0 0 10px;
+    }
+    
+    .input-padron{
+        display: block;
+        margin: 0 0 20px;
+        padding: 10px 25px;
+        width: 50%;
+    }
+    
+    .checkbox{
+        margin: 20px 0;
+    }
+    
+    .enviar{
+         width: 30%;
+         padding: 10px 5px;
+         font-size: 12px;
+         font-weight: bold;
+         color: black;
+         background: gray;
+         border-radius: 10px;
+         transition: 1s all;
+         cursor: pointer;
+    }
+    
+    .enviar:hover{
+        background:#f3e229;
+        transform: scale(1.1);
     }
