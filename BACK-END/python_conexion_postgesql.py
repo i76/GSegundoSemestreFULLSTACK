@@ -11,50 +11,11 @@ pip install psycopg2
 
 import psycopg2
 
-#establishing the connection
-conn = psycopg2.connect(
-   database="d6dnjthjdhcjg2", 
-   user='mhoadzckqtelgg', 
-   password='d23acd0a4b499eb1ea118026c36297aa9e19dd60dfdee4c17d146341eebffdd2', 
-   host='ec2-54-175-79-57.compute-1.amazonaws.com', 
-   port= '5432'
-)
 
-#Creating a cursor object using the cursor() method
-cursor = conn.cursor()
-
-cursor.execute("select * from consultora_organizacion")
-
-data = cursor.fetchall()
-print("Connection established to: ",data)
-
-conn.close()
-
-# Ejecutamos las celdas 1 y 2 antes. Y la celda 4 para cerrar la conexion.
 
 import psycopg2
 
-conn = psycopg2.connect(
-   database="d6dnjthjdhcjg2", 
-   user= 'mhoadzckqtelgg', 
-   password='d23acd0a4b499eb1ea118026c36297aa9e19dd60dfdee4c17d146341eebffdd2', 
-   host='ec2-54-175-79-57.compute-1.amazonaws.com', 
-   port= '5432'
-)
 
-cursor = conn.cursor()
-cursor.execute("select * from consultora_postulante")
-data = cursor.fetchall()
-print("Connection established to: ",data)
-conn.close()
-
-conn = psycopg2.connect(
-   database="d6dnjthjdhcjg2", 
-   user='mhoadzckqtelgg', 
-   password='d23acd0a4b499eb1ea118026c36297aa9e19dd60dfdee4c17d146341eebffdd2', 
-   host='ec2-54-175-79-57.compute-1.amazonaws.com', 
-   port= '5432'
-)
 
 cursor = conn.cursor()
 cursor.execute("INSERT INTO consultora_pais (nombre) VALUES ('Senegal')")
