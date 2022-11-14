@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width">
+            <title>SiTeRH | Grupo41</title>
+            <link rel="icon" type="imgs" href="img/logo1 copy.png">
+    <!-- Bootstrap -->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+            <link rel="stylesheet" href="reset.css">
+            <link rel="stylesheet" href="style.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Work+Sans&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <header>
+            <div class="row">
+                <div class= col-12>
+                    <h1><img id=ImgLogo src="img/logon.png" alt="logo" href="index.html"></h1>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Nosotros</a></li>
+                            <li><a href="servicios.html">Servicios</a></li>
+                            <li><a href="contacto.html">Contacto</a></li>
+                        </ul>
+                    </nav>    
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="row">
+                <div class= col-12>
+                    <p class="tituloPrincipal">Completá el formulario con tu consulta</p>
+                    <form>
+                        <label for="nombreapellido">Nombre y Apellido</label>
+                        <input type="text" id="nombreapellido" class="input-padron">
+
+                        <label for="correoelectronico">Correo Electrónico</label>
+                        <input type="email" id="correoelectronico"class="input-padron"  required placeholder="email@dominio.com">
+                        
+
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" id="telefono" class="input-padron" required placeholder="xxx xxx xxxx">
+
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" cols="70" rows="10"class="input-padron"></textarea>
+
+                        <fieldset>
+                            <legend>Cómo le gustaría que lo contactemos?</legend>
+
+                            <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+                            
+                            <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp"checked>Teléfono / WhatsApp</label>
+                        </fieldset>
+                        
+                        <input type="submit" value="Enviar formulario" class="enviar" >
+                    </form>
+            </div>
+        </main>
+
+        <footer>
+            <img id=ImgFooter src="img/logo1.png">
+            <p class="copy">SiTeRH by Grupo41 - ISPC 2022 &#169;</p>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>    
+    </body>
+
+</html>

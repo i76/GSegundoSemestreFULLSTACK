@@ -1,0 +1,150 @@
+/* estilo general */
+
+    body {
+        background-color: #1f1f1a;
+        font-family: 'Quicksand', sans-serif;
+        font-family: 'Work Sans', sans-serif;
+    }
+    
+    header {
+        background-color: #1f1f1a;
+        padding: 15px;
+    }
+
+    #ImgLogo{
+        width: 5em;
+    }
+    
+    
+    nav{
+        position:absolute;
+        top: 40px;
+        right: 0;
+    }
+    
+    nav li{
+        display: inline;
+        margin: 0 0 0 5px;
+    }
+    
+    nav a{
+        text-transform: uppercase;
+        color: #f4e400;
+        font-weight: bold;
+        font-size: 14px;
+        text-decoration: none;
+        text-align: right;
+        margin-right: 10px;
+    }
+    
+    nav a:hover{
+        color: #847445;
+        text-decoration: underline;
+    }
+    
+    footer{
+        text-align: center;
+        background: url(img/ISS045-E-115225.jpg);
+        padding: 50px;
+    
+    }
+    
+    #ImgFooter{
+        width: 12%;
+        margin: 1%;
+        box-shadow: 5px 5px 10px 5px #0000;
+    }
+    
+    .copy{
+        color: #f3f3ef;
+        font-size: 13px;
+        margin: 20px;
+    }
+
+/* acá inicia el CSS para nuestra home index.html */
+
+    .banner{
+        width: 100%;
+        margin: auto;
+    }
+
+    main{
+        background: linear-gradient(gray, #080800);
+    }
+    
+    .tituloPrincipal{
+        text-align: center;
+        font-size: 1.5em;
+        margin: 0 0 1em;
+        clear: left;
+    }
+    
+    .texto-nosotros{
+        text-align: justify;
+        align-items: center;
+        margin: 40px;
+        padding: 50px;
+    }
+
+    .tituloprincipal strong{
+        font-weight: bold;
+    }
+    /* acá inicia el CSS para nuestra home contacto.html */
+      
+    .row{
+        padding: 18px;
+        color: rgb(249, 248, 251);
+        justify-content: center;
+    }
+    
+    .card{
+        align-items: center;
+        text-align: center justify;
+        border-radius: 10px;
+        margin: 15px;
+        padding: 20px;
+        background: linear-gradient(rgba(167, 169, 163, 0.096), rgba(0, 0, 0, 0.04));
+        color: rgb(210, 208, 219);
+    }
+
+
+    /* acá inicia el CSS para nuestra home contacto.html */
+
+/*        
+    form{
+        margin:auto;
+    }  */
+    
+    form label, form legend{
+        display: block;
+        font-size: 16px;
+        margin: 0 0 10px;
+    }
+    
+    .input-padron{
+        display: block;
+        margin: 0 0 20px;
+        padding: 10px 25px;
+        width: 50%;
+    }
+    
+    .checkbox{
+        margin: 20px 0;
+    }
+    
+    .enviar{
+         width: 30%;
+         padding: 10px 5px;
+         font-size: 12px;
+         font-weight: bold;
+         color: black;
+         background: gray;
+         border-radius: 10px;
+         transition: 1s all;
+         cursor: pointer;
+    }
+    
+    .enviar:hover{
+        background:#f3e229;
+        transform: scale(1.1);
+    }
