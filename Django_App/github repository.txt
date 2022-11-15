@@ -1,2 +1,6 @@
 https://github.com/EdgarGcba/rrhh2
-Este es el link del repositorio de la web-app. 
+Este es el link del repositorio de la web-app. No lo pude subir aca porque detecta que se trata de un repositorio que ya se encuentra en GitHub. 
+
+Link a la aplicacion:
+
+--------> https://consultoraispc.herokuapp.com/ <-------------
